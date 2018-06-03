@@ -17,7 +17,7 @@ export class RecordsService {//here we are defining the core functionality of th
 
   getData(){//always follows the camel case 
 	//this is a array of json objects which is called as ITERABLE DATA in angular
-	return this.http.get<myData>('http://localhost:1600/file.php')//epecting the kind of data to be returned 
+	return this.http.get<>('http://localhost:1600/file.php')//epecting the kind of data to be returned 
 	// here i am expecting the kind of data to be returned as an object which contains object right  
 		
 

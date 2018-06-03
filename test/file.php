@@ -1,6 +1,6 @@
   <?php>
 
-  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Origin: ');
 
   header('Content-Type: application/php');
 
@@ -10,13 +10,13 @@
   obj: [
 
 	 {
-	    name: 'Ishmeet',
-	    online: true 
+	    "name": "Ishmeet",
+	    "online": true 
 	 },
 
 	 {
-	    name: 'tarun',
-	    online: false
+	    "name": "tarun",
+	    "online": false
 	 }
 
 	]
